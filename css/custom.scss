@@ -1,0 +1,124 @@
+.bar {
+  width: 53px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  margin-right: 0px;
+}
+
+header {
+  margin-top: 1%;
+}
+
+.btn-bar {
+  padding: 0 !important;
+  background-color: transparent !important;
+}
+
+.brandnav {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.15em;
+}
+
+.nav-link {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  letter-spacing: 0.15em !important;
+  margin-left: 50px;
+}
+
+.section-header {
+  margin-top: 8%;
+  position: relative;
+  height: 445px;
+  background-color: #5AB0FF;
+  z-index: 0;
+
+  .header-text {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    left: 30%;
+    bottom: 10%;
+
+    h1 {
+      font-family: Libre Baskerville;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 96px;
+      line-height: 119px;
+      letter-spacing: 0.5em;
+    }
+
+    p {
+      font-family: Source Sans Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: 0.15em;
+      width: 15%;
+    }
+  }
+
+  .header-img {
+    height: 503px;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+  }
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (max-width: 991px) {
+  .section-header {
+    margin-top: 8%;
+    position: relative;
+    height: 600px;
+    background-color: #5AB0FF;
+    z-index: 0;
+
+    .header-text {
+      color: white;
+      z-index: 1;
+      position: absolute;
+      left: 10%;
+      bottom: 10%;
+
+      h1 {
+        font-family: Libre Baskerville;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 119px;
+        letter-spacing: 0.25em;
+        font-size: 48px;
+      }
+
+      p {
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0.15em;
+        width: 30%;
+      }
+    }
+
+    .header-img {
+      display: none;
+    }
+  }
+}
